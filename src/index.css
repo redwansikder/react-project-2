@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(246, 244, 246);
+}
+
+.nav {
+  background-color: rgb(247, 123, 40);
+}
+.nav--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  gap: 1em;
+}
+
+.nav--img {
+  height: 1.9rem;
+}
+
+.location--pin {
+  height: 1em;
+}
+
+.places {
+  margin: 0 auto;
+  width: 90%;
+  padding: 2rem;
+  /* background-color: pink; */
+}
+
+.place--container {
+  position: relative;
+  display: flex;
+  padding: 0.5em;
+  outline: 1px solid gray;
+  border-radius: 9px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  max-width: 35rem;
+}
+
+.place--location {
+  display: flex;
+}
+
+.place--img {
+  padding: 0.5em;
+  padding-top: 2em;
+  max-width: 8rem;
+}
+
+.place--location {
+  font-weight: 400;
+  font-size: small;
+}
+
+.date {
+  font-weight: 900;
+  font-size: small;
+}
+
+.times {
+  position: absolute;
+  right: 1rem;
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 5px;
+}
